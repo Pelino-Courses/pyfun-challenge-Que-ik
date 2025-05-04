@@ -16,8 +16,8 @@ def format_text(text:str, prefix:str ="", suffix:str="", capitalize: bool = Fals
     ValueError: If the formatted text exceeds max_length or if the input is invalid.
 
     Examples:
-    $ format_text("hello world", prefix="$ ", suffix=" !", capitalize=True, max_length=20)
-    '$ HELLO WORLD !'
+    $ format_text("hello world", prefix=">>> ", suffix=" <<<", capitalize=True, max_length=20)
+    '>>> HELLO WORLD <<<'
 
     $ format_text("hello world", max_length=5)
     Traceback (most recent call last):
