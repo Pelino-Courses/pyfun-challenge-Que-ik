@@ -1,5 +1,5 @@
 from product import Product
-# Example usage:
+
 try:
     product = Product("Apple", 0.7, 150)
     print(product.display_info())

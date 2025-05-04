@@ -1,7 +1,6 @@
 class Product:
     """
     A class to represent a product in an inventory system.
-
     Attributes:
     ----------
     name : str
@@ -10,18 +9,14 @@ class Product:
         The price of the product.
     quantity : int
         The quantity of the product in stock.
-
     Methods:
     -------
     add_inventory(amount):
-        Adds a specified amount to the product's quantity.
-    
+        Adds a specified amount to the product's quantity.    
     remove_inventory(amount):
         Removes a specified amount from the product's quantity.
-    
     total_value():
         Calculates the total value of the product (price × quantity).
-    
     display_info():
         Displays the product's information.
     """

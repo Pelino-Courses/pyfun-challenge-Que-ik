@@ -25,7 +25,6 @@ def calculate(*args, **kwargs):
     5.0
     3. calculate(10, 0, divide=True)
     Traceback (most recent call last):
-        ...
     ZeroDivisionError: Division by zero is not allowed.
     """
     if not args:

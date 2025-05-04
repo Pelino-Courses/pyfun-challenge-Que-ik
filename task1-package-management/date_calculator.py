@@ -15,12 +15,8 @@ def date_diff(date1:str, date2:str)-> int:
     ValueError: If the date format is incorrect.
 
     example:
-    >>> date_diff('2023-10-01', '2023-10-15')
-    14
-    >>> date_diff('2023-10-01', '2023-09-15')
-    -16
-    >>> date_diff('2023-10-01', '2023-10-01')
-    0
+    >> date_diff('2023-10-01', '2023-10-16')
+    15
     """
     try:
         d1 = datetime.strptime(date1, '%Y-%m-%d')
